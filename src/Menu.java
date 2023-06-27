@@ -25,6 +25,7 @@ public class Menu {
                 case EXIT -> exit();
                 case SHOW_ALL_CAR -> new InfoCars().carInfo();
                 case SHOW_CAR_GIVEN_COLOR -> new ShowCarGivenColor().menuCarGivenColor();
+                case MORE_EXPENSIVE_THAN_THIS_PRICE -> new MoreExpensiveThanThisPrice().moreExpensive();
             }
         }
     }
